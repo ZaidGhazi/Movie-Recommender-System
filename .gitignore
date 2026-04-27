@@ -77,6 +77,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.ipynb_checkpoints/
 
 # IPython
 profile_default/
@@ -179,3 +180,34 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Portfolio housekeeping additions
+.DS_Store
+Thumbs.db
+
+# Local R environment files
+.Renviron
+.Rhistory
+.RData
+.RDataTmp
+.Rproj.user/
+
+# Local Python environment files
+.env.*
+!.env.example
+
+# Additional caches and temporary files
+cache/
+.cache/
+*_cache/
+__cache__/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Rendered intermediates
+*_files/
+*.utf8.md
+*.knit.md
+.quarto/
